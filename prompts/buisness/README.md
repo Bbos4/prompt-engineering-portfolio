@@ -1,5 +1,6 @@
 # Customer Reviewer & Feedback Advice
 > *A structured business prompt designed to turn messy, unstructured customer feedback into actionable product insights, and a strategic course of action.*
+
 **Best for:**
 - Use case 1: Extracting operational strengths and weaknesses from unorganized customer review text.
 - Use case 2: Identifying high risks and product issues early.
