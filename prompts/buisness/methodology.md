@@ -11,12 +11,12 @@ This prompt aims to transform unstructured customer review text into actionable 
 
 **Why this structure fits my task:**
 - **Logical Flow:** It moves the model naturally from receiving raw context (`Situation`), to reasoning through data (`Analysis`), categorizing outputs (`Findings`), and establishing solutions (`Execution`).
-- **Action-Oriented End Goal:** Transitioning from passive analytical findings to an active course of action ensures the output gives management immediate steps to take rather than just raw data.
+- **Action-Oriented End Goal:** Going from analytical findings to a course of action ensures the output gives steps to take rather than just raw data.
 
 **Technique I used:** **Zero-Shot Chain-of-Thought (Zero-Shot CoT)**.
 
 **Why this technique fits my task:**
-I used zero-shot chain-of-thought because customer feedback varies wildly in tone, length, and topic, making fixed examples hard to standardize. Adding the instruction *"Think through this step-by-step before producing your final report"* forces the model to evaluate underlying sentiment and group operational themes logically before jumping to conclusions.
+I used zero-shot chain-of-thought because customer feedback varies wildly. Adding the *"Think through this step-by-step before producing your final report"* forces the model to evaluate sentiments and group operational themes before jumping to conclusions.
 
 **Example of modifying a framework:**
 I started from C-A-R-E (Context, Action, Result, Example) and adapted it into S-A-F-E (Situation, Analysis, Findings, Execution). I replaced Example with **Analysis** to force a chain-of-thought step, and changed Result to **Execution** to focus on a strategic course of action. This custom alignment fit a business analysis task far better than standard creative frameworks.
@@ -40,6 +40,15 @@ I started from C-A-R-E (Context, Action, Result, Example) and adapted it into S-
 ```Read these reviews and tell me what customers think and how to fix negative ones: [RAW_REVIEWS]```
 | Version | Result / score | What changed |
 |---------|----------------|--------------|
-| Naive baseline | 15 / 100 |  |
-| Version 1 |  / 100 |  |
-| Final |  / 100 | |
+| Naive baseline | 15 / 100 | very generic no specifics for a good output. |
+| Version 1 | 88 / 100 | my context and outputs weren't as good but they still gave much better response than the baseline.  |
+| Final | 100 / 100 | I provided more context and added more requirements to the output so that the response is better. |
+
+---
+
+## Strengths and Limitations
+**Works well when:** Analyzing reviews or feedback tickets to establish priority fixes for small business teams.
+
+**Struggles when:** Handling reviews that contain extreme sarcasm and lots of slang.
+
+**Would improve next:** maybe make it so it can rank the most important issues.
