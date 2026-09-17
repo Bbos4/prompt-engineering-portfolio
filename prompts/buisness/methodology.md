@@ -13,13 +13,13 @@ This prompt aims to transform unstructured customer review text into actionable 
 - **Logical Flow:** It moves the model naturally from receiving raw context (`Situation`), to reasoning through data (`Analysis`), categorizing outputs (`Findings`), and establishing solutions (`Execution`).
 - **Action-Oriented End Goal:** Going from analytical findings to a course of action ensures the output gives steps to take rather than just raw data.
 
-**Technique I used:** **Zero-Shot Chain-of-Thought (Zero-Shot CoT)**.
+**Technique I used:** **Zero-Shot Chain-of-Thought**.
 
 **Why this technique fits my task:**
-I used zero-shot chain-of-thought because customer feedback varies wildly. Adding the *"Think through this step-by-step before producing your final report"* forces the model to evaluate sentiments and group operational themes before jumping to conclusions.
+I used zero-shot chain-of-thought because customer feedback varies. Adding the "Think through this step-by-step before producing your final report" forces it to evaluate themes and underlying thoughts before jumping to conclusions.
 
 **Example of modifying a framework:**
-I started from C-A-R-E (Context, Action, Result, Example) and adapted it into S-A-F-E (Situation, Analysis, Findings, Execution). I replaced Example with **Analysis** to force a chain-of-thought step, and changed Result to **Execution** to focus on a strategic course of action. This custom alignment fit a business analysis task far better than standard creative frameworks.
+I started from C-A-R-E (Context, Action, Result, Example) and changed it to S-A-F-E (Situation, Analysis, Findings, Execution). I replaced Example with **Analysis** to force a chain-of-thought step, and changed Result to **Execution** to focus on a strategic course of action. This fit a business analysis better than usual frameworks.
 
 ---
 
