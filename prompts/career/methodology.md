@@ -39,6 +39,7 @@ Zero-Shot prompting is good here because creating an elevator pitch uses persona
 |---------|----------------|--------------|
 | Naive baseline | 25 / 100 | provided specifics and context but not outputs. |
 | Final | 100 / 100 | has all the necessary parts, specific, structured, Context, and Good output.|
+
 **What testing showed:** The prompt ran much better than the baseline, a much more specific output and answer.
 
 ---
