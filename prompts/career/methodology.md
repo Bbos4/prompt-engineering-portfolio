@@ -34,8 +34,7 @@ I used few-shot prompting because because by providing a complete worked example
 ## Testing and Iteration
 
 **Baseline I compared against:**
-```text
-Explain [TARGET_CONCEPT] to a [TARGET_AUDIENCE_LEVEL] using an analogy.
+```Explain [TARGET_CONCEPT] to a [TARGET_AUDIENCE_LEVEL] using an analogy.```
 
 | Version | Result / score | What changed |
 |---------|----------------|--------------|
@@ -44,7 +43,9 @@ Explain [TARGET_CONCEPT] to a [TARGET_AUDIENCE_LEVEL] using an analogy.
 | Final |  / 100 | Added the mandatory table that compares the analogy directly to the concept. |
 
 **What testing showed:** The prompt ran much better than the baseline, a much more specific output and answer.
+
 **What I learned:** Giving examples for the AI to follow in the right situation can make or break the prompt.
+
 ---
 ## Strengths and Limitations
 **Works well when:** Explaining abstract topics
