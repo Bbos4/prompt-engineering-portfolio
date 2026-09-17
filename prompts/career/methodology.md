@@ -1,4 +1,4 @@
-# Executive Elevator Pitch Builder Template
+# Elevator Pitch Builder Template
 
 ## Overview
 **Purpose:** Uses professional details to create a structured, 30-second elevator pitch designed for interviews and networking.
