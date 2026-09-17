@@ -20,17 +20,17 @@ Create a natural sounding elevator pitch based on the details below:
 
 **Constraints:**
 - Write in a natural, conversational cadence for verbal delivery.
-- Keep the primary pitch strictly around 30 seconds spoken.
+- Keep the pitch strictly around 30 seconds spoken.
 - Structure the pitch using a Hook, Your value, Your goal, and Call-to-Action.
 
 **[FORMAT]**
 Output the response in the following structured Markdown sections:
 
-1. **30-Second Primary Pitch:** A complete, 75-100 word spoken script.
+1. **30-Second Pitch:** A complete, 75-100 word spoken script.
 ---
 
 ## Context and Inputs
-- **`[CURRENT_ROLE_OR_BACKGROUND]`:** The candidate's starting domain or recent title.
+- **`[CURRENT_ROLE_OR_BACKGROUND]`:** The candidate's starting position or recent title.
 - **`[TARGET_ROLE_OR_GOAL]`:** The desired destination, target industry, or specific position.
 
 ---
