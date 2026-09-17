@@ -1,4 +1,4 @@
-# Design Methodology: Complex Concept Simplifier (The Analogy Engine)
+# Design Methodology: Concept Simplifier
 
 ## Design Goal
 This prompt aims to help educators, students, and tutors break down academic or technical concepts into explanations using structured real-world analogies.
