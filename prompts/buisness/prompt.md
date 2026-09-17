@@ -39,7 +39,7 @@ Provide a prioritized, step-by-step course of action explaining how management s
 
 ## Output Requirements
 **Format:** 
-- **Section 1:** Step-by-Step Reasoning (2-3 short paragraphs showing the analysis process).
+- **Section 1:** Step-by-Step Reasoning.
 - **Section 2:** Markdown Bulleted Lists for Findings.
 - **Section 3:** Numbered List outlining a strategic Course of Action for management.
 
